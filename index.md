@@ -4,7 +4,7 @@ The aim of this repository is to help promote the awareness to make websites acc
 
 
 
-Edit documentation here: [editor on GitHub](https://github.com/toniton/restaurantmenu.io/edit/gh-pages/index.md).
+[Edit documentation here:](https://github.com/toniton/restaurantmenu.io/edit/gh-pages/index.md).
 
 ### Today's Menu
 
