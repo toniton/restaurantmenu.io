@@ -1,37 +1,35 @@
-## Welcome to GitHub Pages
+## Welcome to Restaurant menu
 
-You can use the [editor on GitHub](https://github.com/toniton/restaurantmenu.io/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
+The aim of this repository is to help promote the awareness to make websites accessible for all.
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
 
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
+Edit documentation here: [editor on GitHub](https://github.com/toniton/restaurantmenu.io/edit/gh-pages/index.md).
+
+### Today's Menu
+
+1. Satay Gai
+2. Chicken and chips
+
+
+### Presentation
+Here are the topics being addresssed in my presentations.
 
 ```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+1. Introduction.
+2. The why?
+3. The numbers.
+4. The how?
+5. Practical examples.
+6. Tools and resources.
 ```
 
-For more details see [Basic writing and formatting syntax](https://docs.github.com/en/github/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax).
+### Contact
 
-### Jekyll Themes
+Here are a couple of ways you car reach me:
 
-Your Pages site will use the layout and styles from the Jekyll theme you have selected in your [repository settings](https://github.com/toniton/restaurantmenu.io/settings/pages). The name of this theme is saved in the Jekyll `_config.yml` configuration file.
+[LinkedIn 💼](https://www.linkedin.com/in/toni-akinjiola/)
 
-### Support or Contact
+[Twitter 🐦](https://twitter.com/toni_x_coder)
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+[Email 📬](mailto:akinjiola.toni@gmail.com)
