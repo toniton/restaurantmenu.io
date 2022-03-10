@@ -1,0 +1,12 @@
+[
+    {
+        "name": "Satai Gai",
+        "description": "Asian food",
+        "ingredients": ["peanuts", "rice", "chicken", "salt"]
+    },
+    {
+        "name": "Chicken chips",
+        "description": "British meal",
+        "ingredients": [ "chicken", "chips", "salt" ]
+    }
+]
