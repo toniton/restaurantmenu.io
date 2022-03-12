@@ -1,0 +1,12 @@
+p {
+  font-family: Lato;
+}
+
+ul {
+  width: fit-content;
+}
+
+li {
+  padding: 15px;
+  border: 1px solid #f4f4f4;
+}

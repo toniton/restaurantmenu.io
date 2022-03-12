@@ -1,0 +1,11 @@
+<h1>Restaurant menu</h1>
+<p>Welcome to restaurant menu. We serve great foods here :)</p>
+<ul>
+  <li *ngFor="let menu of menuList">
+    <img height="120px" alt="image of {{menu.name}}" src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_820/hellofresh_website/be/cms/homepage/image_columns/hiw-2-v2.png"/>
+    <h3>{{ menu.name }}</h3>
+    <p>{{ menu.description }}</p>
+    <button>Order menu</button>
+    <a href="https://google.com/search?q={{menu.name}}">Read more</a>
+  </li>
+</ul>

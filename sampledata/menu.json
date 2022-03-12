@@ -1,12 +1,12 @@
 [
     {
         "name": "Satai Gai",
-        "description": "Asian food",
-        "ingredients": ["peanuts", "rice", "chicken", "salt"]
+        "description": "Satay of course is originally an Indonesian/Malay dish, but it has been in Southern Thailand for a very long time.",
+        "ingredients": ["dry-roasted peanuts", "red curry", "rice", "chicken", "fresh red chilli", "salt"]
     },
     {
         "name": "Chicken chips",
-        "description": "British meal",
+        "description": "Chicken and chips is a combination of foods predominantly consumed in the United Kingdom, The Commonwealth, and United States. It consists of a piece of fried, roasted, or barbecued chicken and chips, or French fries ",
         "ingredients": [ "chicken", "chips", "salt" ]
     }
 ]
