@@ -1,11 +1,34 @@
-<h1>Restaurant menu</h1>
-<p>Welcome to restaurant menu. We serve great foods here :)</p>
-<ul>
-  <li *ngFor="let menu of menuList">
-    <img height="120px" alt="image of {{menu.name}}" src="https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_820/hellofresh_website/be/cms/homepage/image_columns/hiw-2-v2.png"/>
-    <h3>{{ menu.name }}</h3>
-    <p>{{ menu.description }}</p>
-    <button>Order menu</button>
-    <a href="https://google.com/search?q={{menu.name}}">Read more</a>
-  </li>
-</ul>
+<div class="container">
+  <div>
+    <a href="#">Home</a>
+    <a href="#menu-heading">Menu</a>
+  </div>
+  <div>
+    <h1>Restaurant</h1>
+    <img class="restaurant-cover-img"
+      src="https://staycation.twic.pics/v1/resize=1000/image:pictures/production/f99abc05497ca54df2550e864e8ebd72.jpg" />
+
+    <p>Welcome to restaurant. This is an Angular project that was developed to showcase the importance of accessibility,
+      and the big differences little changes make.</p>
+  </div>
+  <div>
+    <h2>Menu</h2>
+    <ul class="menu-list">
+      <li *ngFor="let menu of menuList">
+        <img height="120px"
+          src="{{ menu.imageURL }}" />
+        <h3>{{ menu.name }}</h3>
+        <p>
+          {{ menu.description }}
+        </p>
+        <span>Ingredients:</span>
+        <ul class="menu-ingredients">
+          <li *ngFor="let ingredient of menu.ingredients">{{ingredient}}</li>
+        </ul>
+        <button>Order menu</button>
+        <a id="read-more" href="https://google.com/search?q={{menu.name}}">Read
+          more...</a>
+      </li>
+    </ul>
+  </div>
+</div>
