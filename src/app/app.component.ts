@@ -5,7 +5,7 @@ import { Menu } from './menu';
 @Component({
   selector: 'my-app',
   templateUrl: './app.component-better.html',
-  styleUrls: ['./app.component-better.css'],
+  styleUrls: ['./app.component.css'],
   providers: [MenuService],
 })
 export class AppComponent {

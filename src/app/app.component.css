@@ -13,15 +13,23 @@ div {
   box-sizing: border-box;
 }
 
+strong {
+  color: #666666;
+}
+
 ul.menu-list {
   min-width: fit-content;
   width: 100%;
   max-width: 700px;
 }
 
-ul.menu-list li {
+ul.menu-list > li {
   padding: 15px;
   border: 1px solid #f4f4f4;
+}
+
+.menu-ingredients-title {
+  margin-bottom: 8px;
 }
 
 ul.menu-ingredients {
@@ -29,13 +37,40 @@ ul.menu-ingredients {
   margin-bottom: 30px;
 }
 
-ul.menu-ingredients li {
+ul.menu-ingredients > li {
   padding: 8px 15px;
-  border: 1px solid #f4f4f4;
+}
+
+#skip a{
+  background-color: #f4f4f4;
+  padding: 8px 15px;
+}
+
+#skip a, .sr-only {
+  position: absolute;
+  left: -10000px;
+  top: auto;
+  width: 1px;
+  overflow: hidden;
+}
+ 
+#skip a:focus {
+  color: red;
+  left: 0px;
+  width: auto;
+  height: auto;
 }
 
 .restaurant-cover-img {
   width: 100%;
   max-height: 240px;
   object-fit: cover;
+}
+
+.primary-button {
+  padding: 8px 15px; 
+}
+
+.read-more-link {
+  margin-left: 15px;
 }
