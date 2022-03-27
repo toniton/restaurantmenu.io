@@ -10,7 +10,7 @@
         "id": 2,
         "name": "Chicken chips",
         "description": "Chicken and chips is a combination of foods predominantly consumed in the United Kingdom, The Commonwealth, and United States. It consists of a piece of fried, roasted, or barbecued chicken and chips, or French fries ",
-        "imageURL": "https://img.hellofresh.com/f_auto,fl_lossy,q_auto,w_820/hellofresh_website/be/cms/homepage/image_columns/hiw-2-v2.png",
+        "imageURL": "",
         "ingredients": [ "chicken", "chips", "salt" ]
     }
 ]
