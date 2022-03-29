@@ -15,8 +15,12 @@
     <h2>Menu</h2>
     <ul class="menu-list">
       <li *ngFor="let menu of menuList">
-        <img height="120px"
+        <img *ngIf="menu.imageURL; else showPlaceholderImage" class="menu-img"
           src="{{ menu.imageURL }}" />
+          <ng-template #showPlaceholderImage>
+            <img class="menu-img"
+            src="https://raw.githubusercontent.com/toniton/restaurantmenu.io/main/imgs/no-image-placeholder.png" />
+          </ng-template>
         <h3>{{ menu.name }}</h3>
         <p>
           {{ menu.description }}

@@ -28,6 +28,12 @@ ul.menu-list > li {
   border: 1px solid #f4f4f4;
 }
 
+ul.menu-list > li .menu-img {
+  width: 320px;
+  height: 240px;
+  object-fit: cover;
+}
+
 .menu-ingredients-title {
   margin-bottom: 8px;
 }

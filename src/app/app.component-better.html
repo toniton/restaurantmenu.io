@@ -3,7 +3,7 @@
     <a href="#main-content">Skip to main content</a>
   </div>
   <nav>
-    <ul aria-label="Navigation menu">
+    <ul>
       <li><a href="#">Home</a></li>
       <li><a href="#menu-heading">Menu</a></li>
     </ul>
@@ -12,9 +12,9 @@
     <h1>Restaurant</h1>
     <picture>
       <source media="(min-width: 768px)"
-        srcset="https://github.com/toniton/restaurantmenu.io/blob/main/imgs/restaurant-cover-image.jpg 800w">
+        srcset="https://raw.githubusercontent.com/toniton/restaurantmenu.io/main/imgs/restaurant-cover-image.jpg 800w">
       <img class="restaurant-cover-img"
-        src="https://github.com/toniton/restaurantmenu.io/blob/main/imgs/restaurant-cover-image.jpg"
+        src="https://raw.githubusercontent.com/toniton/restaurantmenu.io/main/imgs/restaurant-cover-image.jpg"
         alt="Cover image of restaurant.">
     </picture>
 
@@ -25,7 +25,12 @@
     <h2 id="menu-heading">Menu</h2>
     <ul class="menu-list">
       <li *ngFor="let menu of menuList">
-        <img height="120px" alt="picture of {{menu.name}}" src="{{ menu.imageURL }}" />
+        <img *ngIf="menu.imageURL; else showPlaceholderImage" class="menu-img"  alt="picture of {{menu.name}}"
+          src="{{ menu.imageURL }}" />
+          <ng-template #showPlaceholderImage>
+            <img class="menu-img" alt="No picture available for {{menu.name}}"
+            src="https://raw.githubusercontent.com/toniton/restaurantmenu.io/main/imgs/no-image-placeholder.png" />
+          </ng-template>
         <h3 id="menu-{{ menu.id }}-title">{{ menu.name }}</h3>
         <p>
           {{ menu.description }}
@@ -37,9 +42,12 @@
           <li *ngFor="let ingredient of menu.ingredients">{{ingredient}}</li>
         </ul>
         <button class="primary-button">Order {{ menu.name }}</button>
-        <a id="read-more-{{ menu.id }}" class="read-more-link" href="https://google.com/search?q={{menu.name}}"
-          attr.aria-labelledby="read-more menu-{{ menu.id }}-title">Read
-          more...</a>
+        <a id="read-more-{{ menu.id }}" class="read-more-link" href="https://google.com/search?q={{menu.name}}">Read
+          more... 
+          <span class="sr-only">
+            about {{ menu.name }}
+          </span>
+        </a>
       </li>
     </ul>
   </main>
