@@ -5,6 +5,9 @@
 # Link to Slides
 [Download PDF](./slides.pdf)
 
+# Youtube videos
+[Preview videos on youtube](https://www.youtube.com/playlist?list=PL9r2njkXnnjd_9mpyb7s4OkiC0BMs0BkG)
+
 # References
 - [https://habengirma.com/2017/09/13/people-with-disabilities-drive-innovation/](https://habengirma.com/2017/09/13/people-with-disabilities-drive-innovation/)
 - [https://www.whitecase.com/publications/insight/haben-girma-disability-rarely-barrier](https://www.whitecase.com/publications/insight/haben-girma-disability-rarely-barrier)
