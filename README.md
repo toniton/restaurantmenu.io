@@ -1,9 +1,15 @@
 # restaurantmenu.io
+[View in browser](https://restaurantmenu-io.stackblitz.io/)
 
+<a href="https://restaurantmenu-io.stackblitz.io/" target="_blank">
 <img src="./preview.png" alt="Image of the restaurant angular app" title="Preview" height="300px"/>
+</a>
+
+# Playground
+[Edit on stackblitz](https://stackblitz.com/edit/restaurantmenu-io?file=src/app/app.component.ts)
 
 # Link to Slides
-[Download PDF](./slides.pdf)
+[Download PDF](./slides.pdf?raw=true)
 
 # Youtube videos
 [Preview videos on youtube](https://www.youtube.com/playlist?list=PL9r2njkXnnjd_9mpyb7s4OkiC0BMs0BkG)
